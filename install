@@ -1,6 +1,6 @@
 ---
 - name: Install nginx
-  hosts: host.name.ip
+  hosts: 172.19.0.2
   become: true
 
   tasks:
